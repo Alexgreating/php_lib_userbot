@@ -1,7 +1,7 @@
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/getCompass/php_lib_userbot/blob/master/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/getCompass/php_lib_userbot/blob/master/README_ru.md)
 
-# Библиотека для работы с API чат-ботов приложения Compass
+# Библиотека для работы с API ботов приложения Compass
 Библиотека предоставляет набор инструментов для работы с ботами в мессенджере
 Compass. [Больше информации об API ботов](https://github.com/getCompass/userbot).
 ## Создание экземпляра класса для бота
