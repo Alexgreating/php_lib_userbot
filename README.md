@@ -1,8 +1,8 @@
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/getCompass/php_lib_userbot/blob/master/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/getCompass/php_lib_userbot/blob/master/README_ru.md)
 
-# A library for working with the Compass app chatbot API
-This library provides a set of tools for working with chatbots in the Compass messaging app. More information about the chatbot API.
+# Library for working with the Compass app bot API
+This library provides a set of tools for working with bots in the Compass messaging app. [More information about the bot API](https://github.com/getCompass/userbot).
 ## Creating a class instance for a bot
 To configure bot access, you need to get an authorization token and a signature key inside the app.
 ```php
