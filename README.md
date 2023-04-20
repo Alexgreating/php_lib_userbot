@@ -52,7 +52,7 @@ $bot->removeReactionFromMessage("ifghWeffbdDDsdxy...", ":blush:");
 ## Servicing Webhook requests
 The Compass app will send a webhook request every time a message strictly corresponding to the command line is sent to the chat.
 ## Adding commands
-Any line starting with the / character can be used as a command. A command can also have arguments that need to be wrapped in []. Named arguments will then be available inside the handler. Examples of line commands:
+Any line starting with the `/` character can be used as a command. A command can also have arguments that need to be wrapped in `[]`. Named arguments will then be available inside the handler. Examples of line commands:
 * `/hi`
 * `/set the timer [timer]`
 * `/wheel of fortune [lucky_guys] [prize]`
@@ -64,7 +64,7 @@ $bot = new \GetCompass\Userbot\Bot("your-token-here", "your-signature-key-here")
 $bot->addCommands("/wheel of fortune [lucky_guys] [prize]");
 ```
 ### Processing webhook requests
-To process requests, you need to create a bot and specify a set of command handlers for it. Each command handler should implement the interface from the set of commands GetCompass\Usbot\Command\InterfaceCommandHandler interface. The GetCompass\Usbot\Command\SimpleCommand handler is used as an example.
+To process requests, you need to create a bot and specify a set of command handlers for it. Each command handler should implement the interface from the set of commands `GetCompass\Usbot\Command\InterfaceCommandHandler interface`. The `GetCompass\Usbot\Command\SimpleCommand handler` is used as an example.
 
 ```php
 // initialize the bot instance specifying the handler for the command "/wheel of fortune [lucky_guys] [prize]"
