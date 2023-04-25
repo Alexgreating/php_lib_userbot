@@ -11,9 +11,9 @@ $bot = new \GetCompass\Userbot\Bot("your-token-here", "you-signature-key-here");
 ```
 ## Using the main userbot API methods
 The main methods include:
-- sending text messages
-- sending files
-- adding a reaction to a message
+- sending text messages;
+- sending files;
+- adding a reaction to a message.
 
 ### Sending text messages
 Sending messages is available for both private and group chats. It is also possible to add comments to other messages.
