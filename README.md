@@ -64,7 +64,7 @@ $bot = new \GetCompass\Userbot\Bot("your-token-here", "your-signature-key-here")
 $bot->addCommands("/wheel of fortune [lucky_guys] [prize]");
 ```
 ### Processing webhook requests
-To process requests, you need to create a bot and specify a set of command handlers for it. Each command handler should implement the interface from the set of commands `GetCompass\Usbot\Command\InterfaceCommandHandler interface`. The `GetCompass\Usbot\Command\SimpleCommand` is used as an example.
+To process requests, you need to create a bot and specify a set of command handlers for it. Each command handler should implement the interface from the set of commands `GetCompass\Userbot\Command\InterfaceCommandHandler interface`. The `GetCompass\Userbot\Command\SimpleCommand` is used as an example.
 
 ```php
 // initialize the bot instance specifying the handler for the command "/wheel of fortune [lucky_guys] [prize]"
